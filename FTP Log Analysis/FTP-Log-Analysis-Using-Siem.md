@@ -20,7 +20,7 @@ _Splunk is installed and properly configured
 FTP logs are being forwarded or available for upload
  Uploading FTP Logs to Splunk_
  
-**1. Prepare Log Files - The file that I have used here was [ftp_log.txt](FTP%20Log%20Analysis/ftp_log.txt) which I generated using [ftplog_gen.py](FTP%20Log%20Analysis/ftplog_gen.py) and this was my path {pipo/splunk_logs/ftp/ftp_log.txt}**
+**1. Prepare Log Files - The file that I have used here was [ftp_log.txt](FTP%20Log%20Analysis/ftp_log.txt) which I generated using [ftplog_gen.py](FTP%20Log%20Analysis/ftplog_gen.py) and this was my path {pipo/splunk_logs/ftp/ftp_log.txt**
 
 * Collect FTP logs in .txt or similar format
 * Ensure logs include:
