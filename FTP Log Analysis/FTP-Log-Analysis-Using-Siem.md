@@ -60,6 +60,7 @@ _Click Select Files & directories and upload your FTP log file with you destined
 **5. Review Settings**
    
 ___Verify:___
+
 * Index
 * Host
 * Sourcetype
