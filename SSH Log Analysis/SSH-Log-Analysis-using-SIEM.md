@@ -88,8 +88,7 @@
       | eval status=case(
           status=="Failed","failed",
           status=="Accepted","success",
-          match(_raw,"session opened"),"success"
-         )
+          match(_raw,"session opened"),"success")
 
       | table _time user src_ip status
 
