@@ -56,6 +56,9 @@
     Identifying login attempts and patterns
     Detecting brute-force or unauthorized access
     Correlating SSH activity with other data sources
+
+<img width="1310" height="159" alt="image" src="https://github.com/user-attachments/assets/b4e67d57-5a94-4956-81c0-f5ff688313af" />
+
     
 # 5. Tunnel Log Analysis
 
