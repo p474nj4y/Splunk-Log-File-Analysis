@@ -32,7 +32,7 @@
     
 <img width="1313" height="153" alt="Screenshot 2026-03-30 at 12 15 54 AM" src="https://github.com/user-attachments/assets/51150549-025d-4bc4-b1b9-822154b61dc6" />
 
-# 3. HTTP Log Analysis
+# 3. [HTTP Log Analysis](./HTTP%20Log%20Analysis/HTTP-Log-Analysis-using-SIEM.md)
 
 **Understand web traffic by analyzing HTTP logs in Splunk.**
 
