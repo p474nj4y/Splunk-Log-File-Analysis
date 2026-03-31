@@ -8,6 +8,7 @@
   "tunnel_type": "Tunnel::TEREDO",
   "action": "Tunnel::DISCOVER"
 }
+
 {
   "ts": 1607993759.321945,
   "uid": "CO9T0A3FPac5ig4hud",
@@ -18,6 +19,7 @@
   "tunnel_type": "Tunnel::TEREDO",
   "action": "Tunnel::DISCOVER"
 }
+
 {
   "ts": 1607993759.337323,
   "uid": "CO9T0A3FPac5ig4hud",
@@ -28,6 +30,7 @@
   "tunnel_type": "Tunnel::TEREDO",
   "action": "Tunnel::CLOSE"
 }
+
 {
   "ts": 1607993759.337323,
   "uid": "CUqiKk4m6VpWwcaJ4l",
