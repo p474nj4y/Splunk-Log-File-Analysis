@@ -1,0 +1,97 @@
+{
+  "ts": 1607993759.321945,
+  "uid": "CO9T0A3FPac5ig4hud",
+  "id.orig_h": "192.168.4.31",
+  "id.orig_p": 3074,
+  "id.resp_h": "40.84.25.61",
+  "id.resp_p": 3544,
+  "proto": "udp",
+  "service": "teredo",
+  "duration": 0.015377998352050781,
+  "orig_bytes": 61,
+  "resp_bytes": 109,
+  "conn_state": "SF",
+  "missed_bytes": 0,
+  "history": "Dd",
+  "orig_pkts": 1,
+  "orig_ip_bytes": 89,
+  "resp_pkts": 1,
+  "resp_ip_bytes": 137,
+  "ip_proto": 17
+}
+
+{
+  "ts": 1607993758.290539,
+  "uid": "CUqiKk4m6VpWwcaJ4l",
+  "id.orig_h": "192.168.4.31",
+  "id.orig_p": 3074,
+  "id.resp_h": "40.84.25.61",
+  "id.resp_p": 65444,
+  "proto": "udp",
+  "conn_state": "S0",
+  "missed_bytes": 0,
+  "history": "D",
+  "orig_pkts": 1,
+  "orig_ip_bytes": 89,
+  "resp_pkts": 0,
+  "resp_ip_bytes": 0,
+  "ip_proto": 17
+}
+
+{
+  "ts": 1607993759.321945,
+  "uid": "CoiibpW4Ov0n1xvj",
+  "id.orig_h": "fe80::ffff:ffff:fffe",
+  "id.orig_p": 133,
+  "id.resp_h": "ff02::2",
+  "id.resp_p": 134,
+  "proto": "icmp",
+  "conn_state": "OTH",
+  "missed_bytes": 0,
+  "orig_pkts": 1,
+  "orig_ip_bytes": 48,
+  "resp_pkts": 0,
+  "resp_ip_bytes": 0,
+  "tunnel_parents": [
+    "CO9T0A3FPac5ig4hud"
+  ],
+  "ip_proto": 1
+}
+
+{
+  "ts": 1607993758.290539,
+  "uid": "C6Gikx4eC6wXR3xOqg",
+  "id.orig_h": "fe80::8000:ffff:ffff:fffe",
+  "id.orig_p": 133,
+  "id.resp_h": "ff02::2",
+  "id.resp_p": 134,
+  "proto": "icmp",
+  "conn_state": "OTH",
+  "missed_bytes": 0,
+  "orig_pkts": 1,
+  "orig_ip_bytes": 48,
+  "resp_pkts": 0,
+  "resp_ip_bytes": 0,
+  "tunnel_parents": [
+    "CUqiKk4m6VpWwcaJ4l"
+  ]
+}
+
+{
+  "ts": 1607993759.337323,
+  "uid": "C8h2gZ3EjWUW5xKh2",
+  "id.orig_h": "fe80::8000:f227:d7ab:e6c3",
+  "id.orig_p": 134,
+  "id.resp_h": "fe80::ffff:ffff:fffe",
+  "id.resp_p": 133,
+  "proto": "icmp",
+  "conn_state": "OTH",
+  "missed_bytes": 0,
+  "orig_pkts": 1,
+  "orig_ip_bytes": 88,
+  "resp_pkts": 0,
+  "resp_ip_bytes": 0,
+  "tunnel_parents": [
+    "CO9T0A3FPac5ig4hud"
+  ]
+}
