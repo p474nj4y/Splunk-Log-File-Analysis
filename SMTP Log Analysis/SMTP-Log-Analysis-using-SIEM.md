@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-**This project demonstrates how to upload and analyze SMTP log files in Splunk SIEM to gain insights into email traffic patterns and detect suspicious behavior.**
+**This project demonstrates how to upload and analyze SMTP log files in _Splunk SIEM_ to gain insights into email traffic patterns and detect suspicious behavior.**
 
 ## Prerequisites
 
