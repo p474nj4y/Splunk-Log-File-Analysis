@@ -1,0 +1,51 @@
+2026-04-01 09:15:23 INFO DHCPACK assigned_ip=192.168.1.10 mac=00:1A:2B:3C:4D:5E hostname=client-01 status=assigned
+2026-04-01 09:17:45 INFO DHCPACK assigned_ip=192.168.1.11 mac=00:1A:2B:3C:4D:5F hostname=client-02 status=assigned
+2026-04-01 09:20:12 INFO DHCPRELEASE assigned_ip=192.168.1.10 mac=00:1A:2B:3C:4D:5E hostname=client-01 status=released
+2026-04-01 09:25:30 INFO DHCPACK assigned_ip=192.168.1.12 mac=00:1A:2B:3C:4D:60 hostname=client-03 status=assigned
+2026-04-01 09:30:05 INFO DHCPACK assigned_ip=192.168.1.13 mac=00:1A:2B:3C:4D:61 hostname=client-04 status=assigned
+2026-04-01 09:32:44 INFO DHCPRELEASE assigned_ip=192.168.1.11 mac=00:1A:2B:3C:4D:5F hostname=client-02 status=released
+2026-04-01 09:40:18 INFO DHCPACK assigned_ip=192.168.1.14 mac=00:1A:2B:3C:4D:62 hostname=client-05 status=assigned
+2026-04-01 09:45:55 INFO DHCPACK assigned_ip=192.168.1.15 mac=00:1A:2B:3C:4D:63 hostname=client-06 status=assigned
+2026-04-01 09:50:11 INFO DHCPRELEASE assigned_ip=192.168.1.12 mac=00:1A:2B:3C:4D:60 hostname=client-03 status=released
+2026-04-01 10:00:27 INFO DHCPACK assigned_ip=192.168.1.16 mac=00:1A:2B:3C:4D:64 hostname=client-07 status=assigned
+2026-04-01 10:05:33 INFO DHCPACK assigned_ip=192.168.1.17 mac=00:1A:2B:3C:4D:65 hostname=client-08 status=assigned
+2026-04-01 10:10:48 INFO DHCPRELEASE assigned_ip=192.168.1.13 mac=00:1A:2B:3C:4D:61 hostname=client-04 status=released
+2026-04-01 10:15:22 INFO DHCPACK assigned_ip=192.168.1.18 mac=00:1A:2B:3C:4D:66 hostname=client-09 status=assigned
+2026-04-01 10:20:37 INFO DHCPACK assigned_ip=192.168.1.19 mac=00:1A:2B:3C:4D:67 hostname=client-10 status=assigned
+2026-04-01 10:25:49 INFO DHCPRELEASE assigned_ip=192.168.1.14 mac=00:1A:2B:3C:4D:62 hostname=client-05 status=released
+2026-04-01 10:30:10 INFO DHCPACK assigned_ip=192.168.1.20 mac=00:1A:2B:3C:4D:68 hostname=client-11 status=assigned
+2026-04-01 10:35:55 INFO DHCPACK assigned_ip=192.168.1.21 mac=00:1A:2B:3C:4D:69 hostname=client-12 status=assigned
+2026-04-01 10:40:22 INFO DHCPRELEASE assigned_ip=192.168.1.15 mac=00:1A:2B:3C:4D:63 hostname=client-06 status=released
+2026-04-01 10:45:39 INFO DHCPACK assigned_ip=192.168.1.22 mac=00:1A:2B:3C:4D:6A hostname=client-13 status=assigned
+2026-04-01 10:50:58 INFO DHCPACK assigned_ip=192.168.1.23 mac=00:1A:2B:3C:4D:6B hostname=client-14 status=assigned
+2026-04-01 11:00:01 INFO DHCPDISCOVER mac=00:1A:2B:3C:4D:70 hostname=client-15
+2026-04-01 11:00:02 INFO DHCPOFFER assigned_ip=192.168.1.24 mac=00:1A:2B:3C:4D:70 hostname=client-15
+2026-04-01 11:00:03 INFO DHCPREQUEST assigned_ip=192.168.1.24 mac=00:1A:2B:3C:4D:70 hostname=client-15
+2026-04-01 11:00:04 INFO DHCPACK assigned_ip=192.168.1.24 mac=00:1A:2B:3C:4D:70 hostname=client-15 status=assigned
+2026-04-01 11:02:15 INFO DHCPDISCOVER mac=00:1A:2B:3C:4D:71 hostname=client-16
+2026-04-01 11:02:16 INFO DHCPOFFER assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:71 hostname=client-16
+2026-04-01 11:02:17 INFO DHCPREQUEST assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:71 hostname=client-16
+2026-04-01 11:02:18 INFO DHCPACK assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:71 hostname=client-16 status=assigned
+2026-04-01 11:05:44 WARNING IP_CONFLICT assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:99 hostname=unknown-client status=conflict_detected
+2026-04-01 11:07:10 INFO DHCPRELEASE assigned_ip=192.168.1.24 mac=00:1A:2B:3C:4D:70 hostname=client-15 status=released
+2026-04-01 11:10:33 INFO DHCPDISCOVER mac=00:1A:2B:3C:4D:72 hostname=client-17
+2026-04-01 11:10:34 INFO DHCPOFFER assigned_ip=192.168.1.26 mac=00:1A:2B:3C:4D:72 hostname=client-17
+2026-04-01 11:10:35 INFO DHCPREQUEST assigned_ip=192.168.1.26 mac=00:1A:2B:3C:4D:72 hostname=client-17
+2026-04-01 11:10:36 INFO DHCPACK assigned_ip=192.168.1.26 mac=00:1A:2B:3C:4D:72 hostname=client-17 status=assigned
+2026-04-01 11:15:01 INFO DHCPDISCOVER mac=00:1A:2B:3C:4D:73 hostname=client-18
+2026-04-01 11:15:02 INFO DHCPOFFER assigned_ip=192.168.1.27 mac=00:1A:2B:3C:4D:73 hostname=client-18
+2026-04-01 11:15:03 INFO DHCPREQUEST assigned_ip=192.168.1.27 mac=00:1A:2B:3C:4D:73 hostname=client-18
+2026-04-01 11:15:04 INFO DHCPACK assigned_ip=192.168.1.27 mac=00:1A:2B:3C:4D:73 hostname=client-18 status=assigned
+2026-04-01 11:20:45 ERROR DHCP_STARVATION mac=AA:BB:CC:DD:EE:01 hostname=attacker status=multiple_requests
+2026-04-01 11:20:46 ERROR DHCP_STARVATION mac=AA:BB:CC:DD:EE:02 hostname=attacker status=multiple_requests
+2026-04-01 11:20:47 ERROR DHCP_STARVATION mac=AA:BB:CC:DD:EE:03 hostname=attacker status=multiple_requests
+2026-04-01 11:20:48 ERROR DHCP_STARVATION mac=AA:BB:CC:DD:EE:04 hostname=attacker status=multiple_requests
+2026-04-01 11:20:49 ERROR DHCP_STARVATION mac=AA:BB:CC:DD:EE:05 hostname=attacker status=multiple_requests
+2026-04-01 11:25:10 WARNING DHCP_POOL_EXHAUSTED status=no_available_ips
+2026-04-01 11:30:22 INFO DHCPDISCOVER mac=00:1A:2B:3C:4D:74 hostname=client-19
+2026-04-01 11:30:23 ERROR DHCPOFFER_FAILED mac=00:1A:2B:3C:4D:74 hostname=client-19 status=pool_exhausted
+2026-04-01 11:35:55 INFO DHCPRELEASE assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:71 hostname=client-16 status=released
+2026-04-01 11:36:10 INFO DHCPDISCOVER mac=00:1A:2B:3C:4D:75 hostname=client-20
+2026-04-01 11:36:11 INFO DHCPOFFER assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:75 hostname=client-20
+2026-04-01 11:36:12 INFO DHCPREQUEST assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:75 hostname=client-20
+2026-04-01 11:36:13 INFO DHCPACK assigned_ip=192.168.1.25 mac=00:1A:2B:3C:4D:75 hostname=client-20 status=assigned
