@@ -87,7 +87,7 @@
 <img width="1274" height="157" alt="Screenshot 2026-04-02 at 10 24 13 PM" src="https://github.com/user-attachments/assets/6c004331-e57f-4cf4-bab5-d944923ca857" />
 
 
-# 7. [DHCP Log Analysis](./DHCP%20Log%20Analysis/DHCP-Log-Anaylysis-using-SIEM.md)
+# 7. [DHCP Log Analysis](./DHCP%20Log%20Analysis/DHCP-Log-Analysis-using-SIEM.md)
 
 **Analyze Dynamic Host Configuration Protocol (DHCP) logs for network visibility.**
 
