@@ -41,7 +41,7 @@ _DHCP logs are available or forwarded to Splunk_
 
 * Click Select File and upload your DHCP log file
 
-> ***4. Configure Source Type**
+> ***4. Configure Source Type***
 
 <img width="441" height="292" alt="Screenshot 2026-04-03 at 5 41 27 PM" src="https://github.com/user-attachments/assets/6f67cf42-b7a2-4a2f-a730-f5fe6ebda2d0" />
 
