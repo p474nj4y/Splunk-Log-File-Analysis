@@ -2,7 +2,7 @@
 
 > **Introduction**
 
-***DHCP (Dynamic Host Configuration Protocol) logs provide visibility into IP address allocation and network device activity. By analyzing these logs using Splunk, security professionals can track device behavior, detect anomalies, and identify potential issues such as unauthorized devices or IP conflicts.**
+**DHCP (Dynamic Host Configuration Protocol) logs provide visibility into IP address allocation and network device activity. By analyzing these logs using Splunk, security professionals can track device behavior, detect anomalies, and identify potential issues such as unauthorized devices or IP conflicts.**
 
 > **Project Overview**
 
