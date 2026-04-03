@@ -17,7 +17,7 @@
 
 **Uploading HTTP Logs to Splunk:**
 
-> **1. Prepare Log Files - The Log file that, I used was [http_log.txt](./HTTP%20Log%20Analysis/http_log.txt)**
+> **1. Prepare Log Files - The Log file that, I used was [http_log.txt](http_log.txt)**
 
 * Obtain HTTP log files (e.g., text format)
 * Ensure logs include:
