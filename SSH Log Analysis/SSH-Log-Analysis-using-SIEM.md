@@ -16,7 +16,7 @@
      SSH logs (e.g., auth.log / secure logs) are available or forwarded to Splunk
      Uploading SSH Logs to Splunk
 
-> ***1. Prepare Log Files - The file I have used was [ssh_log.txt](./SSH%20%Log%20Analysis/ssh_log.txt)***
+> ***1. Prepare Log Files - The file I have used was [ssh_log.txt](ssh_log.txt)***
 
 * Collect SSH log files (e.g., .txt, auth.log)
 * Ensure logs include:
