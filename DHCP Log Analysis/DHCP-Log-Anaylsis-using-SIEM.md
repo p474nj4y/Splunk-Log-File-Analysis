@@ -17,7 +17,7 @@ _DHCP logs are available or forwarded to Splunk_
 
 > **Uploading DHCP Logs to Splunk**
 
-> ***1. Prepare Log Files - in my case the file I used was [dhcp.log](./DHCP%20Log%20analysis/dhcp.log)***
+> ***1. Prepare Log Files - in my case the file I used was [dhcp.log](dhcp.log)***
 
 * Collect DHCP log files (e.g., .log, .txt)
 * Ensure logs include:
