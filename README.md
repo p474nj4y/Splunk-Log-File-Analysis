@@ -19,7 +19,7 @@
 <img width="1312" height="132" alt="Screenshot 2026-03-29 at 8 08 19 PM" src="https://github.com/user-attachments/assets/3bd68edb-2e67-477e-906a-4471a1a6b6c7" />
 
     
-# 2.  [FTP Log Analysis](./FTP%20Log%20Analysis/FTP-Log-Analysis-using-Siem.md)
+# 2.  [FTP Log Analysis](./FTP%20Log%20Analysis/FTP-Log-Analysis-Using-Siem.md)
 
 **Explore how to analyze File Transfer Protocol (FTP) logs using Splunk.**
 
