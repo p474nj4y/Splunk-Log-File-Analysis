@@ -17,7 +17,7 @@
 
 # Uploading Tunnel Logs to Splunk
 
- >***1. Prepare Log Files - ( I have attached both of the log files [tunnel.log](./Tunnel%20Log%20Analysis/tunnel.log) & [conn.log](./Tunnel%20%20Analysis/conn.log) , which I have used .)***
+ >***1. Prepare Log Files - ( I have attached both of the log files [tunnel.log](tunnel.log) & [conn.log](conn.log) , which I have used .)***
 
 * Collect tunnel log files from Zeek IDS (e.g., .log, .txt)
 * Ensure logs include:
@@ -34,7 +34,7 @@
   
 <img width="182" height="183" alt="Screenshot 2026-03-30 at 11 26 09 AM" src="https://github.com/user-attachments/assets/638dc249-1cc7-4bd5-81fd-fd353505c6fa" />
 
-* Select Upload, & Upload both of the files [tunnel.log](./Tunnel%20Log%20Analysis/tunnel.log) & [conn.log](./Tunnel%20%20Analysis/conn.log) seperately for better analysis.
+* Select Upload, & Upload both of the files [tunnel.log](tunnel.log) & [conn.log](conn.log) seperately for better analysis.
 
   >***3. Select File***
 
@@ -44,11 +44,11 @@
 
 <img width="353" height="227" alt="Screenshot 2026-03-31 at 11 10 31 PM" src="https://github.com/user-attachments/assets/09c66a02-2d26-49d8-bafc-4ca0bd42f1e5" />
 
-**In my case for [tunnel.log](./Tunnel%20Log%20Analysis/tunnel.log) ,I named the sourcetype as tunnel.log**
+**In my case for [tunnel.log](tunnel.log) ,I named the sourcetype as tunnel.log**
 
 **&**
 
-**for [conn.log](./Tunnel%20%20Analysis/conn.log), I named it to conn.log**
+**for [conn.log](conn.log), I named it to conn.log**
 
 **Use an appropriate sourcetype (e.g., bro, zeek_tunnel, or custom)**
 
@@ -57,11 +57,11 @@
 * Verify index, host, and sourcetype
 * Ensure proper configuration
 
-**For [tunnel.log](./Tunnel%20Log%20Analysis/tunnel.log) :**
+**For [tunnel.log](tunnel.log) :**
 
 <img width="283" height="193" alt="Screenshot 2026-03-31 at 11 12 27 PM" src="https://github.com/user-attachments/assets/5ada5d1c-2ecb-47bf-88be-391cdb8dd98d" />
 
-**For [conn.log](./Tunnel%20%20Analysis/conn.log) : **
+**For [conn.log](conn.log) : **
 
 <img width="282" height="193" alt="Screenshot 2026-03-31 at 11 13 12 PM" src="https://github.com/user-attachments/assets/296b83b2-9395-47d4-9d39-a705e20b890f" />
 
@@ -73,11 +73,11 @@
 
       index=<your_tunnel_index> sourcetype=<your_tunnel_sourcetype>
       
-**For [tunnel.log](./Tunnel%20Log%20Analysis/tunnel.log) :**
+**For [tunnel.log](tunnel.log) :**
 
 <img width="1343" height="533" alt="Screenshot 2026-03-31 at 11 23 33 PM" src="https://github.com/user-attachments/assets/095e87e4-5f3e-41f7-b5c4-01109f4fba77" />
 
-**For [conn.log](./Tunnel%20%20Analysis/conn.log) :**
+**For [conn.log](conn.log) :**
 
 <img width="1360" height="536" alt="Screenshot 2026-03-31 at 11 23 47 PM" src="https://github.com/user-attachments/assets/6f71659c-ad1a-4871-a89b-178239c662c1" />
 
@@ -98,7 +98,7 @@
 
 ***Example:***
 
-> * For [tunnel.log](./Tunnel%20Log%20Analysis/tunnel.log)
+> * For [tunnel.log](tunnel.log)
 
 <img width="1345" height="395" alt="Screenshot 2026-03-31 at 11 27 00 PM" src="https://github.com/user-attachments/assets/a6db5537-9a71-400a-9eb8-7f2f322bb374" />
 
@@ -109,7 +109,7 @@
      | rex field=_raw "\"ts\":\s*(?<timestamp>[0-9\.]+)"
      | table timestamp, src_ip, dest_ip, tunnel_protocol
      
-> * For [conn.log](./Tunnel%20%20Analysis/conn.log)
+> * For [conn.log](conn.log)
 
 <img width="1348" height="407" alt="Screenshot 2026-03-31 at 11 29 45 PM" src="https://github.com/user-attachments/assets/fe341e84-9a20-4e55-b17d-cea03c475001" />
 
